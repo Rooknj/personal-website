@@ -11,7 +11,7 @@
     "start": "next start",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "lint": "eslint . --ext ts --ext tsx --ext js",
+    "lint": "eslint . --ext=js,jsx,ts,tsx",
     "test": "jest",
     "test-all": "yarn lint && yarn type-check && yarn test"
   },
