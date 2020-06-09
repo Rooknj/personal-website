@@ -3,6 +3,7 @@ import { render } from '@testing-library/react'
 // import { TranslationProvider } from "my-i18n-lib"
 // import defaultStrings from "i18n/en-x-default"
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-ignore
 // @ts-ignore
 const Providers = ({ children }) => {
   return children
@@ -14,9 +15,10 @@ const Providers = ({ children }) => {
   //   </ThemeProvider>
   // )
 }
-
+// eslint-disable-next-line @typescript-eslint/ban-ts-ignore
 // @ts-ignore
 const customRender = (ui, options = {}) =>
+  // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
   // @ts-ignore
   render(ui, { wrapper: Providers, ...options })
 
