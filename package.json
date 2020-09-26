@@ -6,14 +6,14 @@
   "license": "MIT",
   "version": "0.0.0",
   "scripts": {
-    "dev": "next dev",
+    "start": "next dev",
     "build": "next build",
-    "start": "next start",
+    "serve": "next start",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "lint": "eslint . --ext=js,jsx,ts,tsx",
     "test": "jest",
-    "test-all": "yarn lint && yarn type-check && yarn test"
+    "test:all": "yarn lint && yarn type-check && yarn test"
   },
   "husky": {
     "hooks": {
@@ -53,6 +53,7 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.4",
     "husky": "^4.2.5",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^26.0.1",
     "jest-watch-typeahead": "^0.6.0",
     "lint-staged": "^10.2.9",
