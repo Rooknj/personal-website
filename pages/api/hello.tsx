@@ -2,9 +2,8 @@
 
 import { NextApiRequest, NextApiResponse } from "next";
 
-const handler = (req: NextApiRequest, res: NextApiResponse) => {
-  res.statusCode = 200;
-  res.json({ name: "John Doe" });
+const handler = (_: NextApiRequest, res: NextApiResponse) => {
+  res.status(200).json({ text: "Hello" });
 };
 
 export default handler;
