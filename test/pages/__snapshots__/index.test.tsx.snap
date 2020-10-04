@@ -24,23 +24,56 @@ exports[`Home page matches snapshot 1`] = `
         class="headingMd"
       >
         <p>
-          [Your Self Introduction]
-        </p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on 
-          <a
-            href="https://nextjs.org/learn"
-          >
-            our Next.js tutorial
-          </a>
-          .)
+          Constantly curious. Applying what I learn with a balanced blend of boldness and practicality.
         </p>
       </section>
-      <button
-        type="button"
-      >
-        Test Button
-      </button>
+      <h1>
+        About Me
+      </h1>
+      <h2>
+        My Process
+      </h2>
+      <p>
+        I enjoy being curious and am constantly seeking to learn new things. With so many interests to explore, the key to staying focused is my T shaped approach. Go broad in a lot of areas. Then pick to one to explore in depth. The goal is to see where each new piece of information fits in the big picture and to understand how it can help others around me.
+      </p>
+      <h2>
+        My Hobbies
+      </h2>
+      <p>
+        Aside from playing with computers, my hobbies include drinking wine, building DIY electronics projects, and discovering new music. On the weekend you are likely to find me sipping a glass of wine in a vineyard or tinkering with LED light strips at home. Check out some of the thing's I've built below vvv
+      </p>
+      <h1>
+        Projects
+      </h1>
+      <ol>
+        <li>
+          Prysma
+        </li>
+        <li>
+          LED Mirror
+        </li>
+        <li>
+          Room LED Lights Setup
+        </li>
+        <li>
+          Hackathon Visualizer
+        </li>
+        <li>
+          Senior Design
+        </li>
+      </ol>
+      <h1>
+        Future Ventures
+      </h1>
+      <p>
+        [TODO]
+      </p>
+      <h1>
+        Contact
+      </h1>
+      <p>
+        [TODO]
+      </p>
     </main>
   </div>
 </DocumentFragment>
