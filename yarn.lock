@@ -1458,10 +1458,10 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@rooknj/eslint-config@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@rooknj/eslint-config/-/eslint-config-1.1.0.tgz#9dc3116391631da7d050252dbd27eb582ba8f41d"
-  integrity sha512-lKVx3+cAl512OR2X5hAZ7FBH1GTxDA5wVc04OsV9TU8Xu6v9LeoTgWrgFKrfAn7bbJOFl8BzizxQjVh5YLatsg==
+"@rooknj/eslint-config@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@rooknj/eslint-config/-/eslint-config-1.1.1.tgz#6e537f824afcff4fa5cfb5fbfdd0701cbf52fb65"
+  integrity sha512-uyCFVFzsUOsZcD+2I9vDVFRnVz7ABHW80PA0EKMXCQ8npxHRyBGJFN75iZKHLamy3Scm2jzix5Qib2BEZ7xzsg==
   dependencies:
     eslint-config-airbnb-typescript "^10.0.0"
     eslint-config-prettier "^6.12.0"
