@@ -13,7 +13,7 @@
     "lint": "yarn lint:js && yarn lint:types",
     "lint:js": "eslint . --ext=js,jsx,ts,tsx",
     "lint:types": "tsc --pretty --noEmit",
-    "lint:fix": "eslint . --ext=js,jsx,ts,tsx --fix",
+    "lint:fix": "yarn lint:js --fix",
     "test": "jest",
     "test:all": "yarn lint && yarn test"
   },
@@ -21,10 +21,13 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "lint-staged",
-      "pre-push": "yarn run type-check"
+      "pre-push": "yarn test:all"
     }
   },
   "lint-staged": {
+    "*.@(js|jsx|ts|tsx)": [
+      "yarn lint:js --fix"
+    ],
     "*.@(js|jsx|ts|tsx|json|md)": [
       "yarn format"
     ]
