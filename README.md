@@ -13,7 +13,6 @@
 
 - [React](https://github.com/facebook/react)
 - [Next.js](https://github.com/vercel/next.js)
-<!-- - [Styled-Components](https://www.styled-components.com/) -->
 
 ### Prerequisites
 
@@ -26,7 +25,7 @@
 git clone https://github.com/Rooknj/personal-website.git
 cd personal-website
 yarn install
-yarn dev
+yarn start
 ```
 
 ### Testing
@@ -95,7 +94,7 @@ Currently we are extending my custom eslint config [@rooknj/eslint-config](https
 
 Any additional rules are added in [.eslintrc.js](/.eslintrc.js)
 
-Note: The linter is ran during CI and the build will fail if there are any errors. Currently I am not automatically fixing linting errors so you will have to make sure the linter passes manually before submitting a PR
+Note: The linter is ran during CI and the build will fail if there are any errors
 
 ### Code Style
 
